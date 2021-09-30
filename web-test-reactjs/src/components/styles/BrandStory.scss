@@ -1,0 +1,131 @@
+.brand-story {
+    width: 100%;
+    height: 870px;
+    background-color: #0565bb;
+    text-align: center;
+    padding-top: 120px;
+    position: relative;
+    overflow: hidden;
+    .img-note {
+        position: absolute;
+        z-index: 10;
+        right: 210px;
+        height: 120px;
+        top: 140px;
+    }
+    .img-note-before {
+        position: absolute;
+        z-index: 10;
+        height: 180px;
+        right: 140px;
+        width: 130px;
+        top: 170px;
+    }
+    .img-book-left {
+        position: absolute;
+        height: 250px;
+        left: 0;
+        top: 500px;
+    }
+    .img-book-left-next {
+        position: absolute;
+        height: 200px;
+        left: 140px;
+        top: 550px;
+    }
+    .img-note-left {
+        position: absolute;
+        height: 170px;
+        left: 130px;
+        top: 280px;
+    }
+    .img-tree {
+        position: absolute;
+        height: 380px;
+        right: -80px;
+        top: 280px;
+    }
+    .img-calendar {
+        position: absolute;
+        height: 180px;
+        right: -15px;
+        top: 570px;
+    }
+    .title {
+        font-family: "Montserrat-ExtraBold", sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: 4.5px;
+        color: #fcd32a;
+    }
+
+    .content {
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fcd32a;
+    }
+
+    .sub-table {
+        margin-top: 100px;
+        position: relative;
+
+        .sub-table-main {
+            position: absolute;
+            top: 5px;
+            width: 30%;
+            left: 51%;
+            text-align: left;
+
+            img {
+            }
+            .sub-table-title {
+                font-size: 22px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 2.4;
+                letter-spacing: normal;
+                text-align: left;
+                color: #222;
+            }
+            .sub-table-content {
+                font-size: 14px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.88;
+                letter-spacing: normal;
+                text-align: left;
+                color: #222;
+            }
+            .btn-custom {
+                margin-top: 10px;
+                cursor: pointer;
+                background-color: #ffffff;
+                font-size: 20px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.09;
+                letter-spacing: normal;
+                text-align: left;
+                color: #222;
+                border: 3px solid #222;
+                border-radius: 5px;
+                padding: 8px 20px;
+            }
+            .btn-custom:hover {
+                color: rgba($color: #222, $alpha: 0.7);
+                border: 3px solid rgba($color: #222, $alpha: 0.7);
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.best-product {
+    width: 100%;
+    height: 850px;
+    background-image: url("https://cdn.zeplin.io/610079a8a166fd10c34366e0/assets/BF436480-43D1-4D54-9870-E0B959381D38.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .title {
+        margin-top: 0;
+        padding-top: 50px;
+        font-family: "Montserrat-ExtraBold", sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 5px;
+        text-align: center;
+        color: #f96400;
+    }
+
+    .content {
+        font-size: 20px;
+        padding: 0 400px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+        text-align: center;
+        color: #f96400;
+    }
+
+    .list-product {
+        display: flex;
+        margin-top: 73px;
+        justify-content: center;
+        .product-card {
+            position: relative;
+            .main-img {
+                width: 404px;
+                height: 404px;
+            }
+            .logo-rank {
+                position: absolute;
+                z-index: 10;
+                left: 0;
+                top: -35px;
+                height: 70px;
+                width: 70px;
+            }
+            .sub-product {
+                position: absolute;
+                z-index: 10;
+                width: 70%;
+                top: 90%;
+                left: 15%;
+                box-sizing: border-box;
+                height: 75px;
+                border-radius: 5px;
+                border: 3px solid black;
+                background-color: #ffffff;
+                display: flex;
+                align-items: center;
+                padding: 0 10px 0 20px;
+                justify-content: space-between;
+                p {
+                    font-family: "Montserrat-ExtraBold", sans-serif;
+                    font-size: 15px;
+                    font-weight: 800;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.25;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #222;
+                }
+
+                img {
+                    height: 50px;
+                    width: 50px;
+                }
+                img:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
